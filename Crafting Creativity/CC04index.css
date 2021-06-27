@@ -1,0 +1,200 @@
+body, html{
+	background-color: #efe3dc;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 0px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 0px;
+	padding-right: 0px;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+	padding-right: 30px;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	padding-left: 20px;
+	font-size: 25px;
+
+}
+a:hover{
+	background-color: gray;
+	color: white;
+	border-radius: 50px;
+	transition: background 0.5s;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+hr.one{
+	border: none;
+	height: 2px;
+	background-color: #4F4F4F;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	border-bottom: 0px;
+	margin-top: 0px;
+}
+.logo {
+	background-repeat: no-repeat;
+	margin-left: -95px;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 800px;
+	
+}
+.col-2 img{
+	max-width: 100%;
+	padding:0px, 0px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.col-2 a{
+	margin-left: 46%;
+}
+.slider{
+	overflow: hidden;
+}
+.slider figure{
+	position: relative;
+	animation: 40s slider infinite;
+	width: 500%;
+    margin: 0;
+    left: 0;
+    margin-top: -50px;
+    padding-top: 0px;
+}
+.slider figure img{
+   width: 20%;
+   float: left;
+   height: 580px;
+   object-fit: cover;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+@keyframes slider{
+	0%{
+		left:0;
+	}
+	20%{
+		left: 0;
+
+	}
+	25%{
+		left: -100%;
+
+	}
+	45%{
+		left: -100%;
+
+	}
+	50%{
+		left:-200%;
+
+	}
+	70%{
+		left: -200%;
+
+	}
+	75%{
+		left: -300%;
+
+	}
+	95%{
+		left: -300%;
+
+	}
+	100%{
+		left: -400%;
+	}	
+}
+
+h1{
+	color: #4F4F4F;
+	font-size: 60px;
+	text-align: left;
+	padding-left: 38%;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+	color: #4F4F4F;
+	text-align: center;
+	padding-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+form{
+	margin: 50px auto;
+	transition: all 4s ease-in-out;
+	width: 600px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 37%;
+}
+
+.contact-form{
+
+	margin-top: 25px;
+
+}
+
+input, textarea{
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgba(189,189,189,0.5);
+	width: 400px;
+	color: #4F4F4F;
+	vertical-align: top;
+
+}
+
+form .submit:hover{
+	background-color: #4F4F4F;
+	color: #efe3dc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
